@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-                int var;
-        for (var = 10; var >= 10; var++) {
+                int var = 10;
+        while (var == 10) {
 
             System.out.println("Please select type of the desired holyday");
             System.out.println("Enter 1 for Beach");
