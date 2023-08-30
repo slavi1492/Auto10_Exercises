@@ -16,6 +16,6 @@ public class SumOfDiagonalOfMatrix {
             }
             System.out.println();
         }
-        System.out.println("The sum of diagonal elements is:\n"+sumOfDiagonalElements);
+        System.out.println("\nThe sum of diagonal elements is:\n"+sumOfDiagonalElements);
     }
 }
