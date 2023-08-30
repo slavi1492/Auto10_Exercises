@@ -9,7 +9,7 @@ public class BiggestElement {
         String arrayInput = input.nextLine();
         float[] userArray = stringToFloatParse(arrayInput);
 
-        float maxValue = 0;
+        float maxValue = userArray[0];
 
         for (float i : userArray) {
             if (maxValue < i) {
