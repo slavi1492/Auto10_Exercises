@@ -29,7 +29,7 @@ public class TriangleCheck {
         }
     }
 
-    public static String triangleType(float ang1, float ang2, float ang3) {
+    static String triangleType(float ang1, float ang2, float ang3) {
         if (ang1 == 60) {
             return " an equilateral";
         } else if (ang1 == ang2 || ang1 == ang3 || ang2 == ang3) {

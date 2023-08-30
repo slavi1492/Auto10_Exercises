@@ -48,7 +48,7 @@ public class UserMatrixPrintout {
 
     }
 
-    public static int[] stringToIntegerParse(String nextRowInput) {
+    static int[] stringToIntegerParse(String nextRowInput) {
         String[] row = nextRowInput.replaceAll(" ", "").split(",");
         int columns = row.length;
         int[] arr = new int[columns];

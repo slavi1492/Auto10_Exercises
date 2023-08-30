@@ -20,7 +20,7 @@ public class BiggestElement {
 
 
     }
-    public static float[] stringToFloatParse(String arrayInput) {
+    static float[] stringToFloatParse(String arrayInput) {
         String[] row = arrayInput.replaceAll(" ", "").split(",");
         int columns = row.length;
         float[] arr = new float[columns];
