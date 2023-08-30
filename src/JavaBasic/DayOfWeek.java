@@ -1,8 +1,8 @@
-package DayOfWeek;
+package JavaBasic;
 
 import java.util.Scanner;
 
-public class Main {
+public class DayOfWeek {
 
 
     public static void main(String[] args) {

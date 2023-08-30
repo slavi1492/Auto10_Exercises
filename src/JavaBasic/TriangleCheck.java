@@ -1,8 +1,8 @@
-package TriangleCheck;
+package JavaBasic;
 
 import java.util.Scanner;
 
-public class Main {
+public class TriangleCheck {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter value for the first angle in degree:");

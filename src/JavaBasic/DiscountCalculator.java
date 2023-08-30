@@ -1,8 +1,8 @@
-package DiscountCalculator;
+package JavaBasic;
 
 import java.util.Scanner;
 
-public class Main {
+public class DiscountCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Input unit price:");

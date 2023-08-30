@@ -1,8 +1,8 @@
-package VacationRecomendation;
+package JavaBasic;
 
 import java.util.Scanner;
 
-public class Main {
+public class VacationRecomendation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int var = 0;
