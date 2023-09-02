@@ -33,7 +33,19 @@ public class Exercises {
 //        System.out.println("Character or characters in the middle of your string are:");
 //        System.out.println(findMiddleLetter(userString));
 
-        //Execise 4
+//        //Exercise 4
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Exercise3\nEnter string:");
+//        String userString = input.nextLine();
+//        System.out.println("Number of words in your string is: " + countWords(userString));
+
+//        //Exercise 5
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Exercise3\nEnter integer number:");
+//        int userNumber = input.nextInt();
+//        System.out.println("This number is even: "+isEven(userNumber));
+
+        //Exercise 6
 
 
 
@@ -53,19 +65,35 @@ public class Exercises {
         return (num1 + num2 + num3) / 3;
     }
 
-    public static String findMiddleLetter(String userString) {
+    static String findMiddleLetter(String userString) {
         int length = userString.length();
         String middle;
-        if (length != 0){
+        if (length != 0) {
             if (length % 2 != 0) {
-                middle = userString.substring((int)(length / 2), (int)((length / 2)+1));
+                middle = userString.substring((int) (length / 2), (int) ((length / 2) + 1));
             } else {
-                middle = userString.substring((int)((length / 2) - 1), (int)((length / 2)+1));
+                middle = userString.substring((int) ((length / 2) - 1), (int) ((length / 2) + 1));
 
             }
             return middle;
         }
         return "You didn't enter any string!";
 
+    }
+
+    static int countWords(String userString) {
+        int lenght = userString.length();
+        int wordCount = 1;
+        if (lenght == 0) return wordCount = 0;
+
+        for (int i = 0; i < lenght; ++i) {
+            if (userString.trim().charAt(i) == ' ')
+                ++wordCount;
+        }
+        return wordCount;
+    }
+
+    static boolean isEven(int number){
+        return number % 2 == 0;
     }
 }
