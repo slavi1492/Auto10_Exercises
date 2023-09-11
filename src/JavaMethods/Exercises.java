@@ -70,7 +70,7 @@ public class Exercises {
         String middle;
         if (length != 0) {
             if (length % 2 != 0) {
-                middle = userString.substring((int) (length / 2), (int) ((length / 2) + 1));
+                middle = userString.substring((int)(length / 2), (int) ((length / 2) + 1));
             } else {
                 middle = userString.substring((int) ((length / 2) - 1), (int) ((length / 2) + 1));
 
