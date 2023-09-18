@@ -6,5 +6,6 @@ public class Main {
         System.out.println(newCar.name + " " + newCar.color + " " + newCar.releaseYear + " " + newCar.horsePower + " " + newCar.secondHand);
         Car secondCar = new Car();
         System.out.println(secondCar.name + " " + secondCar.color + " " + secondCar.releaseYear + " " + secondCar.horsePower + " " + secondCar.secondHand);
+        // Math.PI
     }
 }
