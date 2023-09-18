@@ -31,4 +31,8 @@ public class Square extends Shape {
     public double getPerimeter(double r) {
         return 4 * a;
     }
+
+    public String printShape(){
+        return ("This is square with side of " + a);
+    }
 }

@@ -29,4 +29,8 @@ public class Circle extends Shape {
     public double getPerimeter(double r) {
         return 2 * Math.PI * r;
     }
+
+    public String printShape(){
+        return ("This is circle with radius of " + r);
+    }
 }
