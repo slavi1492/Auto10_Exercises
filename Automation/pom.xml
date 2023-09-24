@@ -13,5 +13,14 @@
         <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugins</artifactId>
+                <version>3.8.1</version>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>
